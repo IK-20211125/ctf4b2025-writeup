@@ -24,8 +24,8 @@ print("ct:", encrypt(flag_translated, key).hex())
 
 ## Solution
 
-16バイトごとに暗号化されるので、<br>
-下記のように 1 bit を 16 bytes にすれば平文の bit 列が得られます
+16 bytes ごとに暗号化されるので、<br>
+下記のように 1 bit を 16 bytes にすれば、平文の bit 列が得られます。
 
 0 -> A * 16<br>
 1 -> B * 16
